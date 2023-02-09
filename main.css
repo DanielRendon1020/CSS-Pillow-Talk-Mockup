@@ -65,7 +65,12 @@ header div:last-child {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}                          
+}
+
+header div:first-child {
+    flex-direction: column;
+    text-align: left;
+}
 
 /*********************************
  * Container
@@ -85,7 +90,7 @@ aside {
     min-width: 15%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 ul {
     padding: 0;
